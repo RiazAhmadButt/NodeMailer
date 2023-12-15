@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { signup, getbill } = require('../controller/appController.js')
+const { signup, getbill } = require('../controller/controller')
 /** HTTP Reqeust */
 router.post('/user/signup', signup);
 router.post('/product/getbill', getbill);
